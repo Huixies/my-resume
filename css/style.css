@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+/*********打印pdf去边框*********/
+@media print {
+  body {
+    margin: 0;
+  }
+}
+/*********PC*********/
+body {
+  background: #eee;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+a {
+  color: rgba(82, 82, 139, 0.931);
+}
+
+p {
+  margin: 0.4rem 0;
+  color: rgb(78, 78, 78);
+}
+
+h1 {
+  display: inline-block;
+  font-size: 29px;
+  margin: 5px 0;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 4px;
+  color: rgb(78, 78, 78);
+}
+
+article {
+  width: 21cm;
+  min-height: 29.7cm;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1em;
+}
+
+strong {
+  font-weight: none;
+  color: rgb(39, 129, 129);
+}
+
+hr {
+  margin: 0;
+}
+
+/************个人信息************/
+.myself img {
+  display: block;
+  margin-top: 12px;
+  margin-right: 12px;
+  float: right;
+}
+/***********项目经历*************/
+.projects h2 {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+
+.projects a {
+  float: right;
+  margin: 28px 5px 0 5px;
+}
+
+.projects .mean {
+  display: inline-block;
+  margin-left: 10px;
+  color: rgb(117, 117, 117);
+}
+
+.projects .note {
+  display: inline-block;
+  width: 600px;
+}
+
+.projects img {
+  display: inline-block;
+  margin-left: 30px;
+}
+/***********技能*************/
+.skills {
+  margin-bottom: 30px;
+}
+
+.skills h2 {
+  margin: 20px 0 10px 0;
+}
+/********开源项目*************/
+.open-source h2 {
+  display: inline-block;
+  margin: 20px 0 10px 0;
+}
+
+.open-source a {
+  float: right;
+  margin: 37px 5px 0 5px;
+}
+.open-source .content {
+  display: inline-block;
+  width: 400px;
+  margin-left: 40px;
+}
+.open-source .show {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+/********教育经历*************/
+.school h4 {
+  display: inline-block;
+  margin-top: 0;
+  font-size: 20px;
+  color: rgb(78, 78, 78);
+}
+
+.school span {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 15px;
+  color: rgb(100, 100, 100);
+}
+
+.school .time {
+  margin-left: 230px;
+  color: rgb(78, 78, 78);
+}
+/********其他链接************/
+.other .one {
+  margin-left: 50px;
+}
+.other .two {
+  margin-left: 75px;
+}
+.other p {
+  color: rgb(129, 129, 129);
+}
+
+.brpcnone {
+  display: none;
+}

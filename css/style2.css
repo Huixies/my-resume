@@ -1,0 +1,94 @@
+/*********移动端适配*********/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  display: none;
+}
+
+article {
+  width: auto;
+  height: auto;
+  line-height: 1.7rem;
+}
+
+img {
+  display: none;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+.myself p {
+  margin: 0;
+}
+
+.myself img {
+  margin-top: 23px;
+  margin-right: 0;
+}
+
+.projects img {
+  display: none;
+}
+
+.projects .mean {
+  display: none;
+}
+
+.projects .note {
+  width: auto;
+  height: auto;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+}
+
+.school span {
+  display: block;
+  margin: 10px 0;
+}
+
+.school .time {
+  display: block;
+  margin: 0;
+}
+
+.open-source h2 {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+
+.open-source a {
+  float: right;
+  margin: 23px 5px 0 5px;
+}
+
+.open-source header {
+  margin: 0;
+  padding: 0;
+}
+
+.open-source .content {
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.brpcnone {
+  display: initial;
+}
+
+.brnone {
+  display: none;
+}
